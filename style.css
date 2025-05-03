@@ -71,3 +71,37 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+
+/* === MOBILE VIEWPORT ADJUSTMENTS ONLY === */
+@media (max-width: 767px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    transform: scale(0.9);
+    transform-origin: top center;
+    padding: 10px;
+  }
+
+  .game {
+    margin: 0 auto;
+  }
+
+  #rstbtn,
+  #newgame {
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .masg-container {
+    padding: 10px;
+    text-align: center;
+  }
+}
