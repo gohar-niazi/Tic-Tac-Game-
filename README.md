@@ -27,12 +27,6 @@ This project is built using **HTML**, **CSS**, and **JavaScript**. It focuses on
 </p>
 
 ---
-
-## 📷 Demo Preview
-
-> *(Insert a screenshot or screen recording here)*  
-> *e.g., board layout, winning screen*
-
 ---
 
 ## 🚀 How to Run
